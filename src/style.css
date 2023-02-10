@@ -1,0 +1,98 @@
+.navbar-toggler:focus{
+    box-shadow:none;
+}
+#navbutton-active{
+    color: green;
+}
+.fa-solid{
+    color: white;
+    margin-top: 6px;
+}.fa-solid:hover{
+    color: rgb(209, 207, 207);
+}
+#navbar{
+    height:60px;
+}
+.filter1{
+    background-color: rgba(0, 0, 0, 0.897);
+    position: fixed;
+    top: 60px;
+    right: 0;
+    color: white;
+    padding: 0;
+    transition: all 0.6s ease-in-out;
+}
+.filter2{
+    background-color: rgba(0, 0, 0, 0.897);
+    position: fixed;
+    top: 60px;
+    right: -250px;
+    color: white;
+    padding: 0;
+    transition: all 0.6s ease-in-out;
+}
+#filterbox{
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+#filter i{
+    color: white;
+    position: fixed;
+    top: 2px;
+    right: 68px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 26px;
+    cursor: pointer;
+}
+#filter i:hover{
+    color: rgb(199, 197, 197)
+}
+#filterbox div{
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding: 13px 25px;
+}
+#filterbox img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+}
+#filterbox .active{
+    opacity: 0.5;
+}
+#cardtitle{
+    overflow: hidden;
+    height: 25px;
+}
+#carddescription{
+    height: 75px;
+    overflow: hidden;
+}
+#cardauthor{
+    overflow: hidden;
+    height: 25px;
+}
+.nav-link{
+    transition: all 0.8s ease-in-out;
+    color:white
+}
+.nav-link:hover{
+    color:rgb(209, 207, 207);
+}
+.navbar-brandd{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.navbar-brandd:hover{
+    color: white;
+    transform: scale(1.2);
+}
+#nav-link-active{
+    color: green;
+}
+#filter i#filterbutton{
+    color: green;
+}
